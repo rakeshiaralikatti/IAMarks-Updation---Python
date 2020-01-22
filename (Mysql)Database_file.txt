@@ -1,0 +1,34 @@
+server:wammp
+username:root
+password:
+
+-- Database: `test`
+--
+
+--
+-- Table structure for table `ia`
+--
+
+CREATE TABLE IF NOT EXISTS `ia` (
+  `usn` varchar(10) NOT NULL,
+  `name` varchar(30) NOT NULL,
+  `fia` int(10) NOT NULL,
+  `sia` int(10) NOT NULL,
+  `tia` int(10) NOT NULL,
+  `avg` int(10) NOT NULL,
+  `assign` int(10) NOT NULL,
+  `total` int(10) NOT NULL,
+  `verified` varchar(20) NOT NULL
+);
+
+--
+-- Dumping data for table `ia`
+--
+
+INSERT INTO `ia` (`usn`, `name`, `fia`, `sia`, `tia`, `avg`, `assign`, `total`, `verified`) VALUES
+('2AB18CS005', 'chandrashekar', 0, 0, 0, 0, 0, 0, ' '),
+('2AB18CS007', 'Ganesh', 0, 0, 0, 0, 0, 0, ' '),
+('2AB18CS017', 'Kavya', 0, 0, 0, 0, 0, 0, ' '),
+('2AB18CS032', 'Prajwal', 0, 0, 0, 0, 0, 0, ' '),
+('2AB18CS037', 'Raju', 0, 0, 0, 0, 0, 0, ' '),
+('2AB18CS050', 'Shivu', 0, 0, 0, 0, 0, 0, ' ');
